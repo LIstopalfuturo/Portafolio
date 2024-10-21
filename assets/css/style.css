@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(217, 236, 253);
+}
+
+header h1 {
+    flex: 1;
+}
+
+header .avatar {
+    width: 150px;
+    height: auto;
+    border-radius: 50%; 
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav li {
+    padding-right: 20px; 
+}
+
+section#hero {
+    background: url(https://cdn.pixabay.com/photo/2017/12/23/09/23/chair-3034956_1280.jp);
+    height: 53vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+aside.about-me {
+   
+    margin-bottom: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.large-project {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.large-project img {
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+}
+
+.small-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.small-projects a {
+    flex: 1 1 45%; 
+    margin: 5px;
+}
+
+.small-projects img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgb(217, 236, 253);
+    text-align: start;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
